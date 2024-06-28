@@ -8,6 +8,7 @@ La página web está compuesta por los siguientes archivos:
 
 - `index.html`: El archivo principal que contiene la estructura HTML de la página.
 - `medicogabriel.css`: El archivo CSS que define los estilos visuales de la página.
+- `medicogabriel.js`: Archivo JavaScript para la funcionalidad interactiva de esta pagina.
 
 ## Contenido de la Página
 
