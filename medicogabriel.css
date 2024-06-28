@@ -1,69 +1,115 @@
 body {
-    background: #003554 ;
+    background: #003554;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #presentacion {
     background: #006494;
-    color: #e7ecef ;
+    color: #e7ecef;
+    padding: 20px;
+    margin: 20px;
+    border-bottom: double 3px #e7ecef;
     content-visibility: visible;
-    padding: 2px;
-    border-bottom-style: double;
 }
 
-#terapias {
-    background: #006494;
-    display: flex;
-    align-content: space-around;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    flex-wrap: wrap;
-    border-radius: 20px;
-    margin: 10px;
-}
-
-.button {
-    width: 50px;
-    height: 20px;
-    border-color: black;
-}
-
-.titulo {
-    color:aliceblue;
-}
-
-.subtitulo {
-    color:whitesmoke
+#logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
 #nombre {
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #006494;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.info {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    flex-wrap: nowrap;
-    padding: 20px;
+    justify-content: center;
+}
+
+.titulo {
+    color: aliceblue;
+    margin: 0;
+}
+
+.subtitulo {
+    color: whitesmoke;
+    margin: 5px 0;
 }
 
 #Virtual-Medical-Appointments {
     width: 300px;
     height: 50px;
     background: #8093f1;
-    border-style: solid;
+    border: solid 1px black;
     padding: 10px;
     box-sizing: border-box;
     border-radius: 20px;
     display: flex;
-    align-content: stretch;
+    align-content: center;
     justify-content: center;
     align-items: center;
+    margin: 20px auto; /* Esto centra el botón horizontalmente */
+    cursor: pointer;
 }
 
-#telefonos {
+#Virtual-Medical-Appointments:hover {
+    background: #e0e0e0;
+}
+
+#terapias {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.terapia-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.terapia {
+    flex: 1 1 calc(33.333% - 20px);
+    padding: 10px;
+    margin: 5px;
+    background-color: #8093f1;
+    border: solid 1px black;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.terapia:hover {
+    background-color: #e0e0e0;
+}
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
-    padding: 2px;
-    border-bottom-style: double;
+    padding: 10px;
+    border-top: double 3px #e7ecef;
+    margin: 20px;
+}
+
+#contacto p {
+    margin: 10px 0;
 }
