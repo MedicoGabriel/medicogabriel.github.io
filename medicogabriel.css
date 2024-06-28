@@ -4,11 +4,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #333333; /* Texto oscuro para una buena legibilidad */
 }
 
 #presentacion {
-    background: #006494;
-    color: #e7ecef;
+    background: #b1d7e8;
+    color: black;
     padding: 20px;
     margin: 20px;
     border-bottom: double 3px #e7ecef;
@@ -27,9 +28,10 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background: #006494;
+    background: white;
     margin: 20px;
     border-radius: 20px;
+    color: #008000
 }
 
 .info {
@@ -39,12 +41,12 @@ body {
 }
 
 .titulo {
-    color: aliceblue;
+    color: rgb(8, 101, 181);
     margin: 0;
 }
 
 .subtitulo {
-    color: whitesmoke;
+    color: black;
     margin: 5px 0;
 }
 
